@@ -28,9 +28,14 @@
 	box-sizing: border-box;
 	font-family: "Hanken Grotesk", sans-serif;
 }
-
+body {
+	min-height: 100vh;
+display: grid;
+place-items: center;
+}
+	
 .container {
-	margin: 250px auto;
+/* 	margin: 250px auto; */
 	width: 46rem;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
